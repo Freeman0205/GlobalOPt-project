@@ -1,0 +1,47 @@
+.work {
+    min-height: 619px;
+    padding: 51px 0 57px 0;
+    hr{
+        display: block;
+        margin: 0 auto;
+        width: 148px;
+        height: 1px;
+        background-color: $main-color;
+        border: none;
+        margin-top: 20px;
+    }
+    &__subtitle {
+        margin-top: 17px;
+        color: #2e2e2e;
+        font-size: 21px;
+        font-weight: 300;
+        line-height: 24px;
+        text-align: center;
+    }
+    &__main {
+        margin-top: 37px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__item {
+        width: 359px;
+    }
+    
+    &__title {
+        margin-top: 28px;
+        color: $main-color;
+        font-size: 18px;
+        font-weight: 700;
+        text-align: center;
+    }
+    &__descr {
+        width: 359px;
+        color: #3a3a3a;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 22px;
+        text-align: justify;
+        
+        
+    }
+}

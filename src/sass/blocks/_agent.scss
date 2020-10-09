@@ -1,0 +1,32 @@
+.agent {
+    height: 342px;
+    padding: 58px 0 75px 0;
+    background: url(../../img/second_bg.jpg) center (center/cover) no-repeat;
+    &__circle {
+        display: block;
+        margin: 0 auto;
+        display: flex;
+		justify-content: center;
+        align-items: center;
+        width: 102px;
+        height: 102px;
+        border: 1px solid white;
+        border-radius: 100%;
+        
+    }
+    &__title {
+        margin: 20px 0 22px;
+        color: #ffffff;
+        font-family: Roboto;
+        font-size: 26px;
+        font-weight: 700;
+        text-align: center;
+    }
+    &__descr {
+        color: #ffffff;
+        font-size: 19px;
+        font-weight: 300;
+        text-align: center;
+        margin: 0 78px 0 78px;
+    }
+}

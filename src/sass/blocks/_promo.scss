@@ -34,14 +34,16 @@
         margin-top: 9px;
     }
     &__header {
-        margin-top: 26px;
+        margin: 26px 0 0 0;
         color: #ec644b;
+        font-family: "Roboto Condensed";
         font-size: 72px;
         font-weight: 700;
         text-transform: uppercase;
+        text-align: center;
     }
     &__subheader {
-        margin-top: 9px;
+        margin: 9px 0 0 0;
         color: #ffffff;
         font-family: "Roboto Condensed";
         font-size: 42px;
@@ -52,11 +54,12 @@
     &__icons {
         
         display: flex;
-        justify-content: space-between;
+        
         align-items: center;
-        margin-top: 27px;
+        margin-top: 35px;
     }
     &__icon {
+        
         img {
             display: block;
             margin: 0 auto;
@@ -72,7 +75,5 @@
         }
         
     }
-    button {
-        
-    }
+    
 }
