@@ -1,0 +1,11 @@
+.red_line{
+    hr {
+    display: block;
+    margin: 0 auto;
+    width: 148px;
+    height: 1px;
+    background-color: $main-color;
+    border: none;
+    margin-top: 20px;
+    }
+}
