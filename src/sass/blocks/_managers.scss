@@ -1,7 +1,7 @@
-.agent {
+.managers {
     min-height: 342px;
     padding: 58px 0 75px 0;
-    background: url(../../img/second_bg.jpg) center (center/cover) no-repeat;
+    background: url(../../img/manag_bg.jpg) center (center/cover) no-repeat;
     &__circle {
         display: block;
         margin: 0 auto;
@@ -21,7 +21,6 @@
         font-size: 26px;
         font-weight: 700;
         text-align: center;
-        
     }
     &__descr {
         color: #ffffff;
@@ -29,6 +28,6 @@
         font-weight: 300;
         text-align: center;
         margin: 0 78px 0 78px;
-        width: 984px;
+        width: 924px;
     }
 }

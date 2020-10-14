@@ -27,5 +27,19 @@
         margin: 0 auto;
         margin-top: 39px;
     }
+    &_consultation {
+        width: 180px;
+        position: absolute;
+        
+        display: block;
+        margin: 0 auto;
+        bottom: 0;
+        transform: translateY(50%);
+        padding: 0.5em 1em;
+        background: $main-color;
+        color: #fff;
+        box-shadow: 0 0 0 14px white;
+    }
+    
 
 }
