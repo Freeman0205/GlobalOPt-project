@@ -1,0 +1,64 @@
+.footer {
+    height: 201px;
+    background-color: #25333c;
+    padding: 24px 0 28px 0;
+    &__up {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__down {
+        display: flex;
+    }
+    &__logo {
+        width: 68px;
+        height: 71px;
+    }
+    &__descr {
+        color: #ffffff;
+        font-size: 16px;
+        font-weight: 700;
+    }
+    &__info-title {
+        color: #ffffff;
+        font-size: 14px;
+        font-weight: 300;
+       
+    }
+    &__phone {
+        color: white;
+        text-decoration: none;
+        
+    }
+    
+    &__down {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__brand {
+        opacity: 0.6;
+        color: #ffffff;
+        font-size: 13px;
+        font-weight: 300;
+    }
+    &__conf {
+        color: $main-color;
+        font-size: 13px;
+        font-weight: 300;
+        text-decoration: underline;
+    }
+    &__comp-title {
+        opacity: 0.6;
+        color: #ffffff;
+        font-size: 13px;
+        font-weight: 300;
+    }
+hr {
+    width: 1171px;
+    height: 1px;
+    opacity: 0.3;
+    border: none;
+    background-color: white;
+    margin: 26px 0 19px 0;
+}
+}

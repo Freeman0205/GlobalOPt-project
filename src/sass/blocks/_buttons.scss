@@ -30,7 +30,6 @@
     &_consultation {
         width: 180px;
         position: absolute;
-        
         display: block;
         margin: 0 auto;
         bottom: 0;
@@ -39,6 +38,12 @@
         background: $main-color;
         color: #fff;
         box-shadow: 0 0 0 14px white;
+    }
+    &_questions {
+        width: 180px;
+        display: block;
+        margin: 0 auto;
+        margin-top: 17px;
     }
     
 

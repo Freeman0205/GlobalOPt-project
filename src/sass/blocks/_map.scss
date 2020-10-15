@@ -1,0 +1,40 @@
+.map {
+    height: 500px;
+    position: relative;
+    &__info {
+        position: absolute;
+        top: 49%;
+        left: 59%;
+        transform: translateX(-50%);
+        width: 329px;
+        height: 158px;
+        background-color: #ffffff;
+        padding: 27px 49px 28px 53px;
+    }
+    &__title {
+        color: #ec644b;
+        font-size: 16px;
+        font-weight: 700;
+    }
+    &__addr {
+        color: #3a3a3a;
+        font-size: 14px;
+        font-weight: 300;
+        text-align: left;
+        margin-bottom: 0;
+    }
+    &__phone {
+        color: #3a3a3a;
+        font-size: 14px;
+        font-weight: 300;
+        text-align: left;
+    }
+    &__link {
+       a{
+        color: #ec644b;
+        font-weight: 300;
+        text-decoration: underline;
+       }
+    } 
+       
+}

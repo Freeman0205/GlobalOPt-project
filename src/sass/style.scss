@@ -1,6 +1,7 @@
 @import 'libs/bootstrap-reboot.min';
 @import 'libs/fonts';
 @import 'base/variables';
+@import 'libs/slick';
 
 * {
     font-family: 'Roboto', 'Roboto Condensed', sans-serif; 
@@ -21,4 +22,8 @@
 @import 'blocks/_consultation';
 @import 'blocks/forms';
 @import 'blocks/_managers';
-@import 'blocks/_plan'
+@import 'blocks/_plan';
+@import 'blocks/carousel';
+@import 'blocks/questions';
+@import 'blocks/map';
+@import 'blocks/footer';

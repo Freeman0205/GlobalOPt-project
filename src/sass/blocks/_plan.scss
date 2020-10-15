@@ -1,20 +1,30 @@
 .plan {
     min-height: 454px;
     background-color: #f3f3f3;
-    padding: 51px 0px 46px 0px;
+    padding: 51px 0px 0px 0px;
   
     &__content {
         margin-top: 33px;
         display: flex;
         flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
     }
-    &__item {
+    &-item {
         width: 249px;
+        
     }
+    img {
+        display: block;
+        margin: 0 auto;
+    }
+        
     &__title {
         color: #ec644b;
         font-size: 16px;
         font-weight: 700;
+        text-align: center;
+        margin-bottom: 6px;
     }
     &__descr {
         height: 54px;
@@ -23,5 +33,7 @@
         font-weight: 300;
         line-height: 20px;
         text-align: center;
+        text-align: center;
+        margin-bottom: 46px;
     }
 }
