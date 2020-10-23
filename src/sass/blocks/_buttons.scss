@@ -9,6 +9,12 @@
     font-weight: 400;
     text-transform: uppercase;
     cursor: pointer;
+    &:hover {
+        background: #DE453D;
+    }
+    &:focus {
+        outline: none;
+    }
     &_active {
         &:hover {
             transform: scale(1.1);
@@ -16,7 +22,10 @@
             background-color: #fff;
             color: $main-color;
             font-weight: 700;
-          }
+        }
+        &:focus {
+            outline: none;
+        }
     }
     &_main {
         width: 230px;

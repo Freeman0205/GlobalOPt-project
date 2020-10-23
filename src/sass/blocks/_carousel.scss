@@ -6,13 +6,53 @@
         font-size: 21px;
         font-weight: 300;
         text-align: center;
-        margin-top: 43px;
+        margin-top: 17px;
     }
     &__inner {
+        position: relative;
         display: block;
         margin: 0 auto;
         width: 601px;
     }
-    
+    &__img {
+        display: block;
+        margin: 0 auto;
+        margin-top: 31px;
+    }
+    &__title {
+        text-align: center;
+        margin-top: 19px;
+        font-size: 18px;
+        font-weight: 700;
+    }
+    &__descr {
+        color: #3a3a3a;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 22.01px;
+        text-align: justifyCenter;
+        margin-top: 17px;
         
+    }
+.slick-prev, .slick-next {
+    position: absolute;
+    border: none;
+    background: none;
+    z-index: 1;
+    top: 30%;
+    transform: translateY(-50%);
+    left: 180px;
+    img {
+        width: 14px;
+        height: 47px;
+    }
+    &:focus {
+        outline: none;
+   }     
+}
+.slick-next {
+    right: 180px;
+    left: auto;
+}
+ 
 }

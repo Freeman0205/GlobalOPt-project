@@ -6,6 +6,10 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+        &-left {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;        }
     }
     &__down {
         display: flex;
@@ -18,11 +22,13 @@
         color: #ffffff;
         font-size: 16px;
         font-weight: 700;
+        margin-left: 43px;
     }
-    &__info-title {
+    &__quest {
         color: #ffffff;
         font-size: 14px;
         font-weight: 300;
+        text-align: right;
        
     }
     &__phone {
@@ -30,10 +36,20 @@
         text-decoration: none;
         
     }
+    &__info {
+        display: flex;
+        justify-content: flex-end;
+        width: 340px;
+       
+        &-left {
+            margin-right: 19px;
+        }
+    }
     
     &__down {
         display: flex;
         justify-content: space-between;
+        align-items: center;
     }
     &__brand {
         opacity: 0.6;
@@ -47,14 +63,21 @@
         font-weight: 300;
         text-decoration: underline;
     }
+    &__comp {
+        width: 138px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
     &__comp-title {
         opacity: 0.6;
         color: #ffffff;
         font-size: 13px;
         font-weight: 300;
+        margin-right: 10px;
     }
 hr {
-    width: 1171px;
+    width: 1146px;
     height: 1px;
     opacity: 0.3;
     border: none;
