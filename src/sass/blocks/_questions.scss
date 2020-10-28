@@ -68,5 +68,13 @@
         font-weight: 300px;
     }
     
-}
+    }
+    .error {
+        color: $main-color;
+        border: 1px solid red;
+        
+    }
+    label.error {
+        border: none;
+    }
 }

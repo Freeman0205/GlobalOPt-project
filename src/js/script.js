@@ -14,7 +14,41 @@ $(document).ready(function(){
         }
       ]
     });
-    $('.feed-form').validate();
+
+
+    //Modal
+    $('[data-modal=consultation]').on('click', function() {
+        $('.overlay, #consultation').fadeIn('slow');
+    });
+    $('.modal__close').on('click', function() {
+        $('.overlay, #consultation').fadeOut('slow');
+    });
+
     $('input[name=phone]').mask("+7 (999) 999-9999");
+    
+    function validateForms(form) {
+      $(form).validate({
+        rules: {
+          name: 'required',
+          phone: 'required',
+          email: {
+            required: true,
+            email: true
+          }
+        },
+        messages: {
+          name: 'Пожалуйста введите Ваше имя',
+          phone: 'Пожалуйста введите свой телефон',
+          email: {
+            required: 'Нам нужен Ваш email для связи',
+            email: 'Некорректный адрес электронной почты'
+          }
+        }
+      });
+    }
+
+    validateForms('.feed-form');
+    validateForms('#consultation-form');
+    validateForms('#consultation form');
 
   });
